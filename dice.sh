@@ -2,6 +2,7 @@
 
 declare -A faceValue
 
+
 read -p "Enter how many times you want to roll die : " rollDieTimes
 isRoll=0;
 Face_ONE=1;
@@ -47,6 +48,7 @@ echo ${!faceValue[@]}
 
 
 
+
 RANDOM=$$
 PIPS=6
 MAXTHROWS=100
@@ -77,6 +79,7 @@ case "$1" in
   0)
 	 ((ones++));;
   1)
+
        	 ((twos++));;
   2)
 	 ((threes++));;
@@ -100,4 +103,3 @@ do
 done
 
 print_result
-
