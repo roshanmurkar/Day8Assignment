@@ -42,4 +42,5 @@ do
 done
 
 echo "${faceValue[@]}"
+echo ${!faceValue[@]}
 
